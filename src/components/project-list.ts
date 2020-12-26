@@ -1,10 +1,10 @@
-import { UIComponent } from './ui-component.js';
-import { ProjectItem } from './project-item.js';
-import { ProjectState } from '../state/project-state.js';
-import { DropTarget } from '../models/drag-drop.js';
-import { ProjectStatus } from '../models/project-status.js';
-import { Project } from '../models/project.js';
-import { Autobind } from '../decorators/autobind.js';
+import { UIComponent } from './ui-component';
+import { ProjectItem } from './project-item';
+import { ProjectState } from '../state/project-state';
+import { DropTarget } from '../models/drag-drop';
+import { ProjectStatus } from '../models/project-status';
+import { Project } from '../models/project';
+import { Autobind } from '../decorators/autobind';
 
 export class ProjectList
   extends UIComponent<HTMLDivElement, HTMLElement>

@@ -1,4 +1,4 @@
-import { Observer } from '../models/observer.js';
+import { Observer } from '../models/observer';
 
 export abstract class State<T> {
   protected observers: Observer<T>[] = [];

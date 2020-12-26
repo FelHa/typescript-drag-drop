@@ -1,4 +1,4 @@
-import { ProjectStatus } from './project-status.js';
+import { ProjectStatus } from './project-status';
 
 export class Project {
   constructor(
