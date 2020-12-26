@@ -9,13 +9,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: 'dist',
   },
+  devtool: false,
   module: {
     rules: [{ test: /\.ts$/, use: 'ts-loader', exclude: /node_modules/ }],
   },
   resolve: {
     extensions: ['.ts', '.js'],
   },
-  plugins: [
-    new CleanerPlugin.CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
-  ],
+  plugins: [new CleanerPlugin.CleanWebpackPlugin()],
 };
